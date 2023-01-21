@@ -79,3 +79,22 @@ input::placeholder {
   box-shadow: 1px 1px 5px rgb(60, 58, 58);
   border-radius: 8px;
 }
+
+.navbar-links{
+  text-decoration: none !important;
+  color: black;
+  font-weight: 400;
+
+
+}
+
+.navbar-links:hover{
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+
+a.active{
+  font-weight: 700;
+  border-bottom: 2px solid black;
+}

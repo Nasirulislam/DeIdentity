@@ -71,15 +71,15 @@ const Navbar1 = () => {
                 title=""
                 className="px-5"
               >
-                <NavLink className="dropbtn">
+         
                   <Dropdown.Item href="#/action-1">Admin</Dropdown.Item>
-                </NavLink>
-                <NavLink className="dropbtn">
-                  <Dropdown.Item href="#/action-2">User</Dropdown.Item>
-                </NavLink>
-                <NavLink className="dropbtn">
+        
+           
+                  <Dropdown.Item href='/user'>User</Dropdown.Item>
+        
+       
                   <Dropdown.Item href="#/action-3">Service</Dropdown.Item>
-                </NavLink>
+         
               </DropdownButton>
 
               <Button onClick={connectWalletHandler}>{connButtonText} </Button>
